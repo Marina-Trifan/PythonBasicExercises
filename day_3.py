@@ -24,7 +24,7 @@ Exercise 2:
 Write a Python program that:
 - Asks the user for their grade (0-100).
 - Prints "Pass" if the grade is 50 or higher, and "Fail" if it is below 50.
-- If the grade is above 90, print "Excellent" instead of "Pass."
+- If the grade is above 90, print "Excellent" instead of "Pass"
 """
 user_input = int(input("Type your grade: "))   # ask the user for a grade
 
