@@ -1,6 +1,6 @@
 """
 Exercise 1:
-Create a variable name and assign your name to it as a string. Then print: "Hello, <your name>!" using
+Create a variable 'name' and assign your name to it as a string. Then print: "Hello, <your name>!" using
 the f-string format.
 """
 name = "Trifan Marina Valentina"
