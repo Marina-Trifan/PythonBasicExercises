@@ -7,7 +7,8 @@ Read a string of characters from the user and:
 """
 print("Exercise 1: ")
 
-user_string = input("Type a sentence: ")    # string from the user
+user_string = input("Type a sentence: ")    # the variable 'user_string' was created and
+                                            # its value is an input from the user
 print(f"The string length is: {len(user_string)} characters")   # displayed string length
 print(f"In the string are {user_string.count(" ")} empty spaces")  # displayed empty spaces in the string
 
