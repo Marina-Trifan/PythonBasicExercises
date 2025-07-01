@@ -14,7 +14,7 @@ print(f"In the string are {user_string.count(" ")} empty spaces")  # displayed e
 # half of string written with capital letters and half with lowercase letters
 print(user_string[:len(user_string)//2].upper() + user_string[len(user_string)//2:].lower())
 
-print("\n")
+print("\n")   # new line in the terminal
 
 """
 Exercise 2:
@@ -41,7 +41,7 @@ print(list_cities)
 convert_list_cities_to_tuple = tuple(list_cities) # the list was converted back into a tuple
 print(type(convert_list_cities_to_tuple))
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 3:
@@ -82,7 +82,7 @@ print(f"This is the updated dictionary: {a_dictionary}")   # updated dictionary 
 del a_dictionary["Hades"]
 print(f"This is the updated dictionary: {a_dictionary}")   # updated dictionary after the first remove
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 4:
@@ -133,7 +133,7 @@ print(my_students['Alice'])
 my_students['John']['school'] = 'Nr 3'  # John's school was change from Nr 1 to Nr 3
 print(my_students['John'])
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 5:

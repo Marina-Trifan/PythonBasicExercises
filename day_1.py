@@ -6,7 +6,7 @@ the f-string format.
 name = "Trifan Marina Valentina"
 print(f"Hello, {name}")
 
-print("\n")
+print("\n")   # new line in the terminal
 
 """
 Exercise 2:
@@ -18,7 +18,7 @@ width = 4
 area = length * width
 print(f"The area of the rectangle is {area}")
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 3:
@@ -33,7 +33,7 @@ print(f"The number itself is: {number}. \n"
       f"The square of the number is: {number**2}. \n"
       f"The cube of the number is: {number**3}")
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 4:
@@ -50,7 +50,7 @@ print(f"Before swapping: number_1 = {number_1}, number_2 = {number_2}")
 number_1, number_2 = number_2, number_1
 print(f"After swapping: number_1 = {number_1}, number_2 = {number_2}")
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 5:
@@ -64,7 +64,7 @@ temp_C = 25
 temp_F = (temp_C*9/5) +32
 print(f"{temp_C} degrees Celsius is equal to {temp_F} degrees Fahrenheit")
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 6:
@@ -82,7 +82,7 @@ print(f"Before swapping: a = {a}, b = {b}, c = {c}")
 a, b, c = b, c, a
 print(f"After swapping: a = {a}, b = {b}, c = {c}")
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 7:
@@ -106,7 +106,7 @@ t = 20
 A = P * (1+ r/n)**(n*t)
 print(f"The amount after {t} years is: {A}")
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 8:
@@ -127,7 +127,7 @@ sum_of_weights = weight_1 + weight_2 + weight_3
 weighted_average = ((grade_1 * weight_1)+(grade_2 * weight_2)+(grade_3 * weight_3))/sum_of_weights
 print(f"The weighted average is: {weighted_average}")
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 9:
@@ -146,7 +146,7 @@ mid_y = (y1 +y2)/2
 midpoint = (mid_x, mid_y)
 print(f"The midpoint between ({x1}, {y1}) and ({x2}, {y2}) is ({mid_x}, {mid_y}).")
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 10:
@@ -163,7 +163,7 @@ print(f"Variable values before swapping: a = {a}, b = {b}, c = {c}")
 a, b, c = b, c, a
 print(f"Variable values after swapping: a = {a}, b = {b}, c = {c}")
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 11:
@@ -183,7 +183,7 @@ product_of_digits = digit_1 * digit_2 * digit_3
 print(f"Sum of digits: {sum_of_digits}")
 print(f"Product of digits: {product_of_digits}")
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 12:
@@ -198,7 +198,7 @@ temp_C = (temp_F - 32)/1.8
 temp_K = temp_C + 273.15
 print(f"{temp_F}°F is equal to {temp_C: .3f}°C and {temp_K: .2f}K")
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 13:
@@ -218,7 +218,7 @@ print(c)
 d = math.sqrt((a**2 + b**2))
 print(d)
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 14:
@@ -237,4 +237,4 @@ d = 2
 Sum = n/2 * (2*a + (n-1)*d)
 print(f"The sum of the first {n} terms of the AP is {Sum}")
 
-print("\n")
+print("\n")  # new line in the terminal

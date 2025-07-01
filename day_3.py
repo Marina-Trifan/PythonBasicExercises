@@ -17,7 +17,7 @@ while n < 21:   # start a while loop that continues as long as 'n' is lower than
         continue    # if 'n' is an odd number: continue
     print(n)        # display only the even numbers
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 2:
@@ -35,7 +35,7 @@ elif user_input >= 90:                        # if the user's grade is greater t
 elif user_input < 50:                         # if the user's grade is lower than 50 display 'Fail'
       print("Fail")
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 3: 
@@ -50,7 +50,7 @@ if number % 2 == 0:                      # if the remaining of the division (num
 else:                                    # else: the remaining of the division (number/2) is not zero, display ODD
       print(f"Number {number} is an ODD number.")
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 4:
@@ -66,7 +66,7 @@ while positive_integer > 0:       # calculate and display the positive integer f
       positive_integer -= 1
       print(f"{factorial} is the factorial for {positive_integer}")
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 5: 
@@ -75,11 +75,11 @@ Write a Python program that:
 - Prints the multiplication table for that number (from 1 to 10) using a for loop.
 """
 
-number = int(input("Type a number: "))     # ask the user for a numer
+number = int(input("Type a number: "))     # ask the user for a number
 for i in range(1, 11):
       print(f"{number}x{i} = {number * i}")   # display the multiplication table for that number, from 1 to 10
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 6:
@@ -97,7 +97,7 @@ for number in range(start_number, end_number + 1):  # add the '+ 1' to include a
       sum_numbers += number         # add the numbers from the range
 print(f"The sum of numbers from {start_number} to {end_number} is: {sum_numbers}")    # print the result
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 7:
@@ -118,7 +118,7 @@ for number in range(1,51):     # use a for loop to print numbers from 1 to 50, i
       else:
             print(f"{number}")
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 8:
@@ -140,7 +140,7 @@ while True:        # since the number of iterations a while loop is used
             print("Your answer is correct")    # else the user input is correct display 'Your answer is correct'
             break                              # and break (exit) the loop
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 9: 
@@ -156,7 +156,7 @@ Uses for loop to print the following pattern:
 for i in range (1, 6):   # a for loop was used to print the above pattern
       print(i*"*")
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 10:
@@ -172,7 +172,7 @@ for index, number in enumerate(list_of_numbers):      # enumerate(list_of_number
       list_of_numbers[index] = int(number)            # convert each number (currently a string) into an integer
 print(f"The largest number is: {max(list_of_numbers)}")    # display the largest number using the 'max()' function
 
-print("\n")
+print("\n")  # new line in the terminal
 
 """
 Exercise 11:
